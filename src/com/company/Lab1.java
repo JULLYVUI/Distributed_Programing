@@ -64,7 +64,7 @@ public class Lab1 implements Runnable {
         t2.start();
         t1.join();
         t2.join();
-        System.out.println("Tong so luong : "+tong );
+        System.out.println("Tong so luong c : "+tong );
 
     }
 }
